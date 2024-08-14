@@ -1,0 +1,74 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: #0d9c90;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+}
+
+/* Score Display */
+#score-display {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.25rem;
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+/* Name Input Section */
+#name-section {
+    margin-bottom: 1rem;
+}
+
+/* Button Styling */
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#play-again {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+#play-again:hover {
+    background-color: #218838;
+}
