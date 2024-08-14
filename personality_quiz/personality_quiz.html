@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome to [YOUR NAME]'s Personality Quiz!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Import the webpage's JavaScript file -->
+    <script src="personality_quiz.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Personality Quiz</h1>
+    </header>
+    
+    
+    <div id="score-display">Score: 0</div>
+
+    <main>
+        <div id="name-section">
+            <label for="user-name">Enter your name:</label>
+            <input type="text" id="user-name" placeholder="Your Name">
+        </div>
+
+        <h2>Question 1:?</h2>
+        <div class="question">
+            <div class="answer-choice">
+                <button id="q1a1">Choice 1</button>
+            </div>
+            <div class="answer-choice">
+                <button id="q1a2">Choice 2</button>
+            </div>
+        </div>
+        
+        <h2>Question 2:?</h2>
+        <div class="question">
+            <div class="answer-choice">
+                <button id="q2a1">Choice 1</button>
+            </div>
+            <div class="answer-choice">
+                <button id="q2a2">Choice 2</button>
+            </div>
+        </div>
+        
+        <h2>Question 3:?</h2>
+        <div class="question">
+            <div class="answer-choice">
+                <button id="q3a1">Choice 1</button>
+            </div>
+            <div class="answer-choice">
+                <button id="q3a2">Choice 2</button>
+            </div>
+        </div>
+        
+        <h2 id="result">Your result is...</h2>
+
+        <button id="play-again" style="display:none;">Play Again</button>
+    </main>
+</body>
+</html>
